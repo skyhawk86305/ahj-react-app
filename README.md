@@ -1,6 +1,10 @@
 ### Feature Branch
 
+<<<<<<< HEAD
 Note: This is a feature branch of `react-universally`. Please see [`FEATURE_APOLLO.md`](./docs/FEATURE_APOLLO.md) doc for more information on this branch.
+=======
+Note: This is a feature branch of `react-universally`. Please see [`FEATURE.md`](./FEATURE.md) for more information on this branch.
+>>>>>>> upstream/feature/mobx
 
 ---
 
