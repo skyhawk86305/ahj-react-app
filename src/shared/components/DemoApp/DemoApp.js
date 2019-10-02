@@ -1,5 +1,3 @@
-/* @flow */
-
 import React from 'react';
 import { Match, Miss } from 'react-router';
 import Helmet from 'react-helmet';
@@ -34,6 +32,15 @@ function DemoApp() {
         render={routerProps =>
           <CodeSplit chunkName="home" modules={{ Home: require('./Home') }}>
             { ({ Home }) => Home && <Home {...routerProps} /> }
+          </CodeSplit>
+        }
+      />
+
+      <Match
+        pattern="/foo"
+        render={routerProps =>
+          <CodeSplit chunkName="foo" modules={{ Foo: require('./Foo') }}>
+            { ({ Foo }) => Foo && <Foo {...routerProps} /> }
           </CodeSplit>
         }
       />
