@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "apollo-client": "0.5.25",
-    "apollo-server": "0.3.3",
+    "apollo-server": "2.14.2",
     "app-root-dir": "1.0.2",
     "body-parser": "1.15.2",
     "code-split-component": "2.0.0-alpha.5",
